@@ -40,6 +40,6 @@ console.log(lewisIndex);
 // e salva il risultato nella variabile isTeachersEmpty
 let isTeachersEmpty = null;
 
-isTeachersEmpty = teachers == [] ? true : false;
+isTeachersEmpty = teachers.length == 0 ? true : false;
 
 console.log(isTeachersEmpty);
